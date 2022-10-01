@@ -4,7 +4,7 @@ function newButton(text, callback) { ///Recebendo função como parâmetro
     const $button = document.createElement('button');
     $button.textContent = text;
 
-    callback($button); 
+    callback($button); //chamando a funcao callback
 
 
     $body.insertAdjacentElement("beforeend", $button);
