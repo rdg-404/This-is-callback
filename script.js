@@ -1,24 +1,18 @@
 
-///funcao de criar botao
-//primeiro param texto de dentro do botao
-//segundo param callback sendo pega la da linha 19 e 31
-function newButton(text, callback) {
+function newButton(text, callback) { ///Recebendo função como parâmetro
     const $body = document.querySelector('body');
     const $button = document.createElement('button');
     $button.textContent = text;
 
-    callback($button);//excuta a callback recebendo o button la da linha 19 e 31
+    callback($button); 
 
 
     $body.insertAdjacentElement("beforeend", $button);
 
-    // return $button;
 }
 
 
-
-///param button enviado para a callback na linha 10
-newButton("Login", (button) => {
+newButton("Login", (button) => { //enviando função como parameter
     button.style.cssText = `
         font-size: 20px;
     `;
