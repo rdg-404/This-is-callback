@@ -12,3 +12,8 @@
 
 * A outra função recebe, sequencialmente, os parâmetros
 
+<br><br><br><br><br>
+<img src="./screenshots/Captura de tela 2022-09-30 221546.png">
+
+* Chamando a função callback, recebida como parâmetro acima
+* Passando o button como parâmetro, pego na criação da arrow func.
