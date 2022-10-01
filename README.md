@@ -17,3 +17,21 @@
 
 * Chamando a função callback, recebida como parâmetro acima
 * Passando o button como parâmetro, pego na criação da arrow func.
+
+
+<br><br><br><br><br>
+<h1 align="center">Assincronismo</h1>
+
+<h2>Ter um certo tempo de espera para executar</h2>
+
+* Função ``` SetTimeout() ```
+
+``` js
+  setTimeout(myFunction, 5000);
+
+  function myFunction() {
+    document.getElementById("demo").innerHTML = "Hello World!";
+  } 
+
+```
+
